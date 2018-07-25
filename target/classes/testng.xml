@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name = "Free CRM suite">
+
+	<listeners>
+		<listener class-name="com.freecrm.qa.extentreportlistener.ExtentReporterNG" />
+	</listeners>
+	
+	<test name = "Different type of test cases execution">
+		
+		<classes>
+			<class name = "com.freecrm.qa.testcases.LoginPageTest" />
+			<class name = "com.freecrm.qa.testcases.HomePageTest" />
+			
+		</classes>
+		
+	</test>
+
+</suite>		
+
+	
