@@ -12,6 +12,7 @@
 		<classes>
 			<class name = "com.freecrm.qa.testcases.LoginPageTest" />
 			<class name = "com.freecrm.qa.testcases.HomePageTest" />
+			<class name = "com.freecrm.qa.testcases.ContactPageTest" />
 			
 		</classes>
 		

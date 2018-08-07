@@ -9,9 +9,8 @@
       <class name="com.freecrm.qa.testcases.HomePageTest">
         <methods>
           <include name="setup"/>
-          <include name="validateTitleNameTest"/>
+          <include name="validateTaskTabTest"/>
           <include name="tearDown"/>
-          <include name="validateContactsTabTest"/>
         </methods>
       </class> <!-- com.freecrm.qa.testcases.HomePageTest -->
       <class name="com.freecrm.qa.testcases.LoginPageTest">

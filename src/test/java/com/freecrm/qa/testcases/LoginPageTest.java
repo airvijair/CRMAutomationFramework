@@ -26,18 +26,18 @@ public class LoginPageTest extends TestBase{
 		loginPage = new LoginPage();
 	}
 	
-	@Test(priority = 1, invocationCount=5, groups = "TitleValidate")
+	@Test(invocationCount=5, groups = "TitleValidate")
 	public void loginPageTitleTest() {
 		String str = loginPage.validatePageTitle();
-		Assert.assertEquals(str, "Free CRM software in the cloud powers sales and customer service");
+		Assert.assertEquals(str, "#1 Free CRM software in the cloud for sales and service");
 	}
 
-	@Test(priority = 3, groups = "LoginValidate")
+	@Test(groups = "LoginValidate")
 	public void loginTest() {
 		homePage = loginPage.Login(prop.getProperty("username"), prop.getProperty("password"));
 		
 	}
-	@Test(priority = 2, groups = "LogoValidation")
+	@Test(groups = "LogoValidation")
 	public void loginPageFreeCRMLogo() {
 		boolean flag =loginPage.validateFreeCRMLog();
 		Assert.assertTrue(flag);

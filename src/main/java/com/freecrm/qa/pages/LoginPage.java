@@ -17,7 +17,7 @@ public class LoginPage extends TestBase {
 	@FindBy(xpath = "//input[@name = 'password']")
 	WebElement pword;
 	
-	@FindBy(xpath = "//input[@value='Login']")
+	@FindBy(xpath = "//*[@id=\"loginForm\"]/div/div/input")
 	WebElement loginbtn;
 	
 	
